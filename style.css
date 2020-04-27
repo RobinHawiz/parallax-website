@@ -1,3 +1,5 @@
+/* GLOBALS */
+
 * {
   padding: 0;
   margin: 0;
@@ -24,6 +26,8 @@ p {
   font-size: 1.5rem;
 }
 
+/* THE FRONTPAGE */
+
 .mountain-frontpage {
   min-height: 100vh;
   background-image: url("./images/mountains.jpg");
@@ -34,25 +38,24 @@ p {
   display: flex;
   justify-content: center;
 }
-
 .layer {
   background-color: rgba(248, 247, 216, 0.2);
   position: absolute;
   height: 100%;
   width: 100%;
 }
-
 .mountain-contents {
   z-index: 1;
   display: flex;
   align-items: center;
 }
-
 .mountain-contents h1 {
   padding: 1rem 3rem;
   letter-spacing: 0.2rem;
   background: red;
 }
+
+/* THE MIDDLE SECTION (excluding the ones with images)*/
 
 .section {
   min-height: 20vh;
@@ -60,21 +63,20 @@ p {
   align-items: center;
   justify-content: center;
 }
-
 .section-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-
 .section-content p {
   padding: 1rem 1rem;
 }
-
 .section-content h2 {
   padding-top: 1rem;
 }
+
+/* THE MIDDLE IMAGES SECTION*/
 
 .section-image {
   min-height: 40vh;
@@ -85,16 +87,17 @@ p {
   justify-content: center;
   align-items: center;
 }
-
 .section-image h1 {
   font-size: 4rem;
   letter-spacing: 1rem;
   padding: 0 2rem;
 }
-
 .section-image h1 {
   color: white;
 }
+
+/* THE SPECIFIC MIDDLE SECTION */
+
 #section-1 {
   background: #ffe8df;
   color: #142850;
@@ -108,10 +111,11 @@ p {
   color: #0c7b93;
 }
 
+/* THE SPECIFIC MIDDLE IMAGES SECTION */
+
 #section-image-1 {
   background-image: url("./images/mountains-redlight.jpg");
 }
-
 #section-image-2 {
   background-image: url("./images/mountains-forest.jpg");
 }
@@ -120,15 +124,12 @@ p {
   h1 {
     font-size: 3rem;
   }
-
   .section-image h1 {
     font-size: 2rem;
   }
-
   h2 {
     font-size: 2rem;
   }
-
   p {
     font-size: 1rem;
   }
