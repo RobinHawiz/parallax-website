@@ -12,7 +12,19 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-#mountain-section {
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.mountain-frontpage {
   min-height: 100vh;
   background-image: url("./images/mountains.jpg");
   background-position: center;
@@ -37,8 +49,63 @@ body {
 }
 
 .mountain-contents h1 {
-  font-size: 5rem;
   padding: 1rem 3rem;
   letter-spacing: 0.2rem;
   background: red;
+}
+
+.section {
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section-content p {
+  padding-top: 1rem;
+}
+
+.section-image {
+  min-height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-image h1 {
+  letter-spacing: 1rem;
+}
+
+.section-image h1 {
+  color: white;
+}
+#section-1 {
+  background: #ffe8df;
+  color: #142850;
+}
+#section-2 {
+  background: #ffffff;
+  color: #27496d;
+}
+#section-3 {
+  background: #f0f0f0;
+  color: #0c7b93;
+}
+
+#section-image-1 {
+  background-image: url("./images/mountains-redlight.jpg");
+}
+
+#section-image-2 {
+  background-image: url("./images/mountains-forest.jpg");
 }
