@@ -69,6 +69,10 @@ p {
 }
 
 .section-content p {
+  padding: 1rem 1rem;
+}
+
+.section-content h2 {
   padding-top: 1rem;
 }
 
@@ -83,7 +87,9 @@ p {
 }
 
 .section-image h1 {
+  font-size: 4rem;
   letter-spacing: 1rem;
+  padding: 0 2rem;
 }
 
 .section-image h1 {
@@ -108,4 +114,22 @@ p {
 
 #section-image-2 {
   background-image: url("./images/mountains-forest.jpg");
+}
+
+@media screen and (max-width: 520px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .section-image h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }
